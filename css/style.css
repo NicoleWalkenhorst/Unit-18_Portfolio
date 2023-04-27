@@ -66,8 +66,8 @@ a {
     background-color: #616F6F;
     max-height: 560px;
     display: flex;
-    justify-content: center;
-    padding: 10%;
+    float; right;
+    padding: 8%;
 
 }
 .flexbox-item-portrait{
@@ -124,6 +124,28 @@ p{
     color: white;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "project-1 project-1"
+    "project-2 project-2"
+    "project-3 project-3";
+}
+
+.project-1 {
+    grid-area: project-1
+}
+
+.project-2 {
+    grid-area: project-2
+}
+
+.project-3 {
+    grid-area: project-3
+}
+
 /*footer*/  
 
 .footer {
@@ -156,5 +178,18 @@ p{
   }
   
   
+ @media screen and (min-width:736px){
+
+    .grid{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "project-1 project-1"
+        "project-2 project-2"
+        "project-3 project-3";
+    }
+ }
+
+
  
-  
