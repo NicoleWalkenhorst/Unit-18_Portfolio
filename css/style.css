@@ -5,8 +5,6 @@
     --fs-400: 1rem;
 }
 
-
-
 body {
     background-color:#eee
 }
@@ -70,12 +68,14 @@ a {
 
 /*hero banner*/
 
+
 .flexbox-container{
     width: 100%;
     background-color: #616F6F;
     max-height: 540px;
     display: flex;
     padding: 10%;
+    margin-bottom: 120px;
 
 }
 .flexbox-item-portrait{
@@ -112,7 +112,18 @@ h3 {
     line-height: 0 ;
 }
 
-p{
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #616F6F;
+    font-size: 16px;
+    line-height: 0;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5%;
+    
+}
+
+p {
     font-family: Arial, Helvetica, sans-serif;
     color: #616F6F;
     font-size: 25px;
@@ -120,6 +131,12 @@ p{
     font-weight: lighter;
     text-align: center;
     padding-bottom: 5%;
+}
+p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #616F6F;
+    text-align: center;
 }
 
 .image {
@@ -131,6 +148,42 @@ p{
     padding-top: 75px;
     color: white;
 
+}
+
+.flexContainer{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: center;
+    padding: 0%;
+    
+}
+
+.card-1 {
+    width: 33%;
+    padding:5%;
+    margin:5%;  
+    background-color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-2 {
+    width: 33%;
+    padding:5%;
+    margin:5%;  
+    background-color: #fff;  
+    justify-content: center;
+    text-align: center;
+}
+
+.card-3 {
+    width: 33%;
+    padding:5%;
+    margin:5%;  
+    background-color: #fff; 
+    justify-content: center;
+    text-align: center;
 }
 
 .grid{
@@ -154,6 +207,8 @@ p{
 .project-3 {
     grid-area: project-3
 }
+
+
 
 /*footer*/  
 
@@ -199,6 +254,16 @@ p{
         "project-3 project-3";
     }
  }
+
+ /* On screens that are 736px or less, set the headshot image to 150px */
+@media screen and (max-width: 736px) {
+    flexbox-item-portrait {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+
 
 
  
