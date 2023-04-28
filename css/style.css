@@ -73,15 +73,14 @@ a {
 .flexbox-container{
     width: 100%;
     background-color: #616F6F;
-    max-height: 560px;
+    max-height: 540px;
     display: flex;
-    float; right;
-    padding: 8%;
+    padding: 10%;
 
 }
 .flexbox-item-portrait{
+    width: 300px;
     height: 300px;
-    
 }
 
 h1 {
