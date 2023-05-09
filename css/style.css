@@ -149,6 +149,14 @@ p2 {
     color: white;
 
 }
+.skills_image {
+    width: 202 pxpx;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 75px;
+}
 
 .flexContainer{
     display: flex;
